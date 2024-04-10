@@ -4,9 +4,9 @@
 University of California San Diego, Computer Scinece and Engineering  
 
 ## Abstract
-We implemented ray tracing from scratch in C++. The rendered images are shown in the next section. Scene 1 involves transformation of sphere and triangles, point of lihgt source,  five times reflection at maximum, and material propaties (including emission, diffuse, ambient, and shiness).
+We implemented ray tracing from scratch in C++. The rendered images are shown in the following section. These scenes includes the transformation of spheres and triangles, a single point light source, a maximum of five reflections, and material properties such as emission, diffusion, ambient, and shininess.
 
-We also imeplemted Bounding Volume Heirarchy for faster rendering. The acceleration structure reduced the render time of scene 5 from 20 minutes to 10 minutes and scene 4 from approximately 4 hours to just 1 hour.
+Additionally, we implemented a Bounding Volume Hierarchy to speed up the rendering process. This acceleration structure halved the rendering time for scene 2 from 20 minutes to 10 minutes, and significantly reduced the rendering time for scene 4 from roughly 4 hours to just 1 hour. For those implementing bounding volume heirarchy in the future its worth noting that if only 1/4 of your image is rendering properly chances are you just need to check maxT and minT for you bounding volume intersection.
 
 Finally, we implmented ray tracing using NVIDIA's OptiX API with CUDA. 
 
@@ -34,13 +34,13 @@ Finally, we implmented ray tracing using NVIDIA's OptiX API with CUDA.
   </div>
 </div>
 
-## Method
+## Ray Tracing Method
 
 **Ray Tracing Overview [(NVIDIA'19)](https://developer.nvidia.com/discover/ray-tracing):**
 
 <div class="flex-container" style="display: flex;">
   <img src="images\
-ray-tracing.jpeg" style="width: 60%;">
+ray-tracing.jpeg" style="width: 50%;">
   <ol>
     <li>Cast a ray into every pixel.</li>
     <li>Determine if it intersects any object, and find the nearest one.</li>
@@ -58,7 +58,7 @@ ray-tracing.jpeg" style="width: 60%;">
 
 
 [//]: # ({% raw %})
-```python
+```C++
 RayTrace(Camera cam, Scene scene, int width, int height)
 {
     Image image = new Image (width, height);
@@ -78,6 +78,9 @@ RayTrace(Camera cam, Scene scene, int width, int height)
 ## Acceleration Structure
 **Bounding Volume Heirarchy**
 
+
+## Real-time Rendering with GPU
+**Optix**
 
 ## Reference
 Email: tayoshino@ucsd.edu
