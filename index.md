@@ -52,8 +52,12 @@ ray-tracing.jpeg" style="width: 60%;">
   
   
 **Code Snippet:**
-<blockquote>
 
+
+
+
+
+[//]: # ({% raw %})
 ```python
 RayTrace(Camera cam, Scene scene, int width, int height)
 {
@@ -68,7 +72,8 @@ RayTrace(Camera cam, Scene scene, int width, int height)
     return image;
 }
 ```
-</blockquote>
+[//]: # ({% endraw %})
+
 
 ## Acceleration Structure
 **Bounding Volume Heirarchy**
