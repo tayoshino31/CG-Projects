@@ -4,11 +4,11 @@
 University of California San Diego, Computer Scinece and Engineering  
 
 ## Abstract
-We implemented ray tracing from scratch in C++. The rendered images are shown in the following section. These scenes includes the transformation of spheres and triangles, a single point light source, a maximum of five reflections, and material properties such as emission, diffusion, ambient, and shininess.
+We implemented ray tracing algorithm (Whitted 1980) from scratch in C++. Thoese rendering includes the transformation of spheres and triangles, a single point light source, a maximum of five reflections, and material properties.
 
-Additionally, we implemented a Bounding Volume Hierarchy to speed up the rendering process. This acceleration structure halved the rendering time for scene 2 from 20 minutes to 10 minutes, and significantly reduced the rendering time for scene 4 from roughly 4 hours to just 1 hour. For those implementing bounding volume heirarchy in the future its worth noting that if only 1/4 of your image is rendering properly chances are you just need to check maxT and minT for you bounding volume intersection.
+Additionally, we implemented a Bounding Volume Hierarchy to speed up the rendering process. This acceleration structure halved the rendering time for scene 2 from 20 minutes to 10 minutes, and significantly reduced the rendering time for scene 4 (+50K vertices) from roughly 14 hours to just 2.5 hour. For those implementing bounding volume heirarchy in the future its worth noting that if only 1/4 of your image is rendering properly chances are you just need to check maxT and minT for you bounding volume intersection.
 
-Finally, we implmented ray tracing using NVIDIA's OptiX API with CUDA. 
+Finally, we implemented ray tracing using NVIDIA's OptiX API with CUDA. The GPU-based ray tracer achieved lightning-fast rendering, and scene 4 was rendered in less than 2 seconds with the acceleration structure. 
 
 ## Rendered Images
 
@@ -45,7 +45,7 @@ ray-tracing.jpeg" style="width: 50%;">
     <li>Cast a ray into every pixel.</li>
     <li>Determine if it intersects any object, and find the nearest one.</li>
     <li>Find the color of intesected point based on the materials and light position.</li>
-    <li>Recursively generate a new ray of refrection direction.</li>
+    <li>Recursively generate a new ray to the reflection direction.</li>
     <li>Determine the final color of the pixel.</li>
   </ol>
 </div>
@@ -76,11 +76,23 @@ RayTrace(Camera cam, Scene scene, int width, int height)
 
 
 ## Acceleration Structure
-**Bounding Volume Heirarchy**
+**Bounding Volume Hierarchy: [(BVH)](https://en.wikipedia.org/wiki/Bounding_volume_hierarchy)**
+  
+  <img src="images/BVH.png" style="width: 70%;">
 
 
-## Real-time Rendering with GPU
-**Optix**
+
+## Performance
+**Rendering Time**
+
+
+
+| (Milliseconds)          | Without BVH     | With BVH        |
+|-------------------------|----------------:|----------------:|
+| C++  (CPU)              | 50,942,720      | 8,775,658       |
+| CUDA (GPU)              | 3,552           | 1,998           |
 
 ## Reference
-Email: tayoshino@ucsd.edu
+1. https://developer.nvidia.com/discover/ray-tracing
+2. https://en.wikipedia.org/wiki/Bounding_volume_hierarchy
+3. https://tavianator.com/2014/ellipsoid_bounding_boxes.html  
