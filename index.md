@@ -80,7 +80,7 @@ RayTrace(Camera cam, Scene scene, int width, int height)
   
   <img src="images/BVH.png" style="width: 70%;">
 
-Testing every primitive for ray intersection is computationally expensive and becomes extremely slow as the number of objects increases. An acceleration structure efficiently selects only some potential primitives for intersection with the ray. BVH builds a hierarchy of bounding volumes as a binary tree and uses it to accelerate ray intersection. BVH allows the ray to find the intersection in at most O(log(n)).
+Testing every primitive for ray intersection is extremely slow as the number of objects increases. An acceleration structure efficiently selects only some potential primitives for intersection with the ray. BVH first builds a hierarchy of bounding volumes as a binary tree and uses it to accelerate ray intersection. BVH allows the ray to find the intersection in at most O(log(n)).
 
 ## Performance
 **Rendering Time**
