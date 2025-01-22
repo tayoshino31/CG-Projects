@@ -56,7 +56,7 @@ We implemented ray tracing and path tracing using c++ and NVIDIA's OptiX API. Th
 
 <div style="display: flex; justify-content: space-around;">
   <div style="width: 45%; text-align: center;">
-    <img src="..\images\rendering\hw2\cornell.png"="width: 100%;">
+    <img src="..\images\rendering\hw2\cornell.png" style=="width: 100%;">
     <p>cornellDirect</p>
   </div>
   <div style="width: 45%; text-align: center;">
@@ -75,7 +75,7 @@ We implemented ray tracing and path tracing using c++ and NVIDIA's OptiX API. Th
 
 <div style="display: flex; justify-content: space-around;">
   <div style="width: 30%; text-align: center;">
-      <img src="..\images\rendering\hw2\dragon.png"="width: 100%;">
+      <img src="..\images\rendering\hw2\dragon.png" style=="width: 100%;">
       <p>dragonDirect</p>
     </div>
   <div style="width: 30%; text-align: center;">
@@ -92,7 +92,7 @@ We implemented ray tracing and path tracing using c++ and NVIDIA's OptiX API. Th
     <p>cornellCosin</p>
   </div>
   <div style="width: 30%; text-align: center;">
-    <img src="..\images\rendering\hw4\cornellBRDF.png"="width: 100%;">
+    <img src="..\images\rendering\hw4\cornellBRDF.png" style=="width: 100%;">
     <p>cornellBRDF</p>
   </div>
 </div>
