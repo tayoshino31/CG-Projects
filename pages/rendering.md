@@ -6,9 +6,9 @@ University of California San Diego, Computer Scinece and Engineering
 ## Path Tracing
 We implemented ray tracing and path tracing using c++ and NVIDIA's OptiX API. The GPU-based ray tracer achieved lightning-fast rendering, and the dragon was rendered in less than 2 seconds with the acceleration structure. 
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 20px;">
     <div>
-        <table>
+        <table border="1" style="border-collapse: collapse; text-align: center;">
             <tr>
                 <th>(Milliseconds)</th>
                 <th>Without BVH</th>
@@ -27,7 +27,7 @@ We implemented ray tracing and path tracing using c++ and NVIDIA's OptiX API. Th
         </table>
     </div>
     <div>
-        <img src="..\images\raytracing\scene7.png" style="width: 50%;">
+        <img src="..\images\raytracing\scene7.png" style="width: 50%; margin-left: 20px;">
     </div>
 </div>
 
