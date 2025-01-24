@@ -1,1 +1,1 @@
-https://tayoshino31.github.io/CG-Projects/pages/rendering
+https://tayoshino31.github.io/CG-Projects/pages/

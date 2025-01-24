@@ -3,8 +3,8 @@
 **Taiki Yoshino, David Choi**   
 University of California San Diego, Computer Scinece and Engineering  
 
-## Path Tracing
-We implemented ray tracing and path tracing using c++ and NVIDIA's OptiX API. The GPU-based ray tracer achieved lightning-fast rendering, and the dragon was rendered in less than 2 seconds with the acceleration structure. 
+## Ray Tracing with NVIDIA Optix
+We implemented ray tracing using c++ and NVIDIA's OptiX. The GPU-based ray tracer achieved lightning-fast rendering, and the dragon was rendered in less than 2 seconds with a BVH acceleration structure. 
 
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px;">
     <div>
@@ -32,6 +32,7 @@ We implemented ray tracing and path tracing using c++ and NVIDIA's OptiX API. Th
 </div>
 
 ## Direct Lighting
+We implemented direct light sampling for area light sources using both analytic and Monte Carlo solutions. The analytic solution computes the incident radiance from a polygonal light source by projecting it onto the unit hemisphere and then onto the unit disk. Although the solution is efficient to compute and noise-free, it only works for scenes without shadows. On the other hand, the Monte Carlo solution is computationally expensive and includes noise, but it can handle arbitrary BRDFs and use shadow rays to determine if the light source is occluded.
 
 <div style="display: flex; justify-content: space-around;">
   <div style="width: 45%; text-align: center;">
@@ -52,7 +53,12 @@ We implemented ray tracing and path tracing using c++ and NVIDIA's OptiX API. Th
   </div>
 </div>
 
-## Global Illumination
+## Indirect Path Tracing
+To account for indirect lighting, where a surface is illuminated by light bounced off other surfaces, we implemented Monte Carlo path tracing. Since path tracing requires higher computational cost, we improved efficiency using Next Event Estimation (NEE) and Russian Roulette (RR). 
+
+NEE improves convergence by directly sampling light sources at each bounce, reducing variance and speeding up rendering by capturing important lighting interactions more efficiently.
+
+RR optimizes performance by probabilistically terminating low-contribution paths, reducing computations while maintaining an unbiased estimate of the rendering equation.
 
 <div style="display: flex; justify-content: space-around;">
   <div style="width: 45%; text-align: center;">
@@ -84,7 +90,8 @@ We implemented ray tracing and path tracing using c++ and NVIDIA's OptiX API. Th
   </div>
 </div>
 
-## Multiple Important Sampling
+## Importance Sampling
+We introduced importance sampling methods into our renderer to compute indirect lighting more efficiently. The previous method, Uniform Hemisphere Sampling, distributed samples uniformly, often allocating them to less important directions, leading to slower convergence and increased noise. To improve this, we implemented PDF-based sampling techniques, specifically Cosine-Weighted Sampling and BRDF Importance Sampling. These methods prioritize sampling directions that contribute more significantly to the final radiance, improving rendering quality and efficiency.
 
 <div style="display: flex; justify-content: space-around;">
   <div style="width: 30%; text-align: center;">
@@ -97,7 +104,3 @@ We implemented ray tracing and path tracing using c++ and NVIDIA's OptiX API. Th
   </div>
 </div>
 
-## Reference
-1. https://developer.nvidia.com/discover/ray-tracing
-2. https://en.wikipedia.org/wiki/Bounding_volume_hierarchy
-3. https://tavianator.com/2014/ellipsoid_bounding_boxes.html  
