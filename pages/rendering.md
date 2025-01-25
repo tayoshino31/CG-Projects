@@ -54,11 +54,7 @@ We implemented direct light sampling for area light sources using both analytic 
 </div>
 
 ## Indirect Path Tracing
-To account for indirect lighting, where a surface is illuminated by light bounced off other surfaces, we implemented Monte Carlo path tracing. Since path tracing requires higher computational cost, we improved efficiency using Next Event Estimation (NEE) and Russian Roulette (RR). 
-
-NEE improves convergence by directly sampling light sources at each bounce, reducing variance and speeding up rendering by capturing important lighting interactions more efficiently.
-
-RR optimizes performance by probabilistically terminating low-contribution paths, reducing computations while maintaining an unbiased estimate of the rendering equation.
+To account for indirect lighting, where a surface is illuminated by light bounced off other surfaces, we implemented Monte Carlo path tracing. Since path tracing requires higher computational cost, we improved efficiency using Next Event Estimation (NEE) and Russian Roulette (RR). NEE improves convergence by directly sampling light sources at each bounce, reducing variance and speeding up rendering by capturing important lighting interactions more efficiently. RR optimizes performance by probabilistically terminating low-contribution paths, reducing computations while maintaining an unbiased estimate of the rendering equation.
 
 <div style="display: flex; justify-content: space-around;">
   <div style="width: 45%; text-align: center;">
