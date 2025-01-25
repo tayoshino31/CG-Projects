@@ -1,1 +1,1 @@
-https://tayoshino31.github.io/CG-Projects/pages/
+https://tayoshino31.github.io/CG-Projects/
