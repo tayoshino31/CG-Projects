@@ -2,66 +2,39 @@
 
 **Taiki Yoshino**   
 University of California San Diego, Computer Scinece and Engineering  
+CSE169 Computer Animation (2025 Winter)  
+Used Tools: C++, OpenGL, ImGUI
 
 ## Skeleton
-We implemented ray tracing using c++ and NVIDIA's OptiX. The GPU-based ray tracer achieved lightning-fast rendering, and the dragon was rendered in less than 2 seconds with a BVH acceleration structure. 
-
-
-
-## Skin
-
 
 <div style="display: flex; justify-content: space-around;">
-  <div style="width: 45%; text-align: center;">
-    <img src="..\images\rendering\hw2\analytic.png" style="width: 100%;">
-    <p>Analytic</p>
+  <div style="width: 50%; text-align: center;">
+    <img src="..\images\animation\hw1\test.gif" style="width: 100%;">
+    <p>Skeleton</p>
   </div>
-  <div style="width: 45%; text-align: center;">
-    <img src="..\images\rendering\hw2\direct3x3.png" style="width: 100%;">
-    <p>direct3x3</p>
+  <div style="width: 50%; text-align: center;">
+    <img src="..\images\animation\hw1\wasp.gif" style="width: 100%;">
+    <p>Wasp</p>
   </div>
-  <div style="width: 45%; text-align: center;">
-    <img src="..\images\rendering\hw2\direct9.png" style="width: 100%;">
-    <p>direct9</p>
+    <div style="width: 50%; text-align: center;">
+    <img src="..\images\animation\hw1\dragon.gif" style="width: 100%;">
+    <p>Dragon</p>
   </div>
-    <div style="width: 45%; text-align: center;">
-    <img src="..\images\rendering\hw2\sphere.png" style="width: 100%;">
-    <p>Sphere</p>
+</div>
+
+## Skin 
+<div style="display: flex; justify-content: space-around;">
+  <div style="width: 35%; text-align: center;">
+    <img src="..\images\animation\hw2\tube.png" style="width: 100%;">
+    <p>Tube</p>
+  </div>
+  <div style="width: 35%; text-align: center;">
+    <img src="..\images\animation\hw2\wasp.png" style="width: 100%;">
+    <p>Wasp</p>
   </div>
 </div>
 
 ## Keyframe Animation
-
-
-<div style="display: flex; justify-content: space-around;">
-  <div style="width: 45%; text-align: center;">
-    <img src="..\images\rendering\hw2\cornell.png" style="width: 100%;">
-    <p>cornellDirect</p>
-  </div>
-  <div style="width: 45%; text-align: center;">
-    <img src="..\images\rendering\hw3\cornellSimple.png" style="width: 100%;">
-    <p>cornellSimple</p>
-  </div>
-  <div style="width: 45%; text-align: center;">
-    <img src="..\images\rendering\hw3\cornellNEE.png" style="width: 100%;">
-    <p>cornellNEE</p>
-  </div>
-  <div style="width: 45%; text-align: center;">
-    <img src="..\images\rendering\hw3\cornellRR.png" style="width: 100%;">
-    <p>cornellRR</p>
-  </div>
-</div>
-
-<div style="display: flex; justify-content: space-around;">
-  <div style="width: 30%; text-align: center;">
-      <img src="..\images\rendering\hw2\dragon.png" style="width: 100%;">
-      <p>dragonDirect</p>
-    </div>
-  <div style="width: 30%; text-align: center;">
-    <img src="..\images\rendering\hw3\dragon.png" style="width: 100%;">
-    <p>dragonGI</p>
-  </div>
-</div>
 
 ## Cloth Simulation
 

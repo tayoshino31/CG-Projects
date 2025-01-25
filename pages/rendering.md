@@ -2,6 +2,8 @@
 
 **Taiki Yoshino, David Choi**   
 University of California San Diego, Computer Scinece and Engineering  
+CSE168 Rendering (2024 Spring)  
+Used Tools: C++, CUDA, NVIDIA Optix 6.5
 
 ## Ray Tracing with NVIDIA Optix
 We implemented ray tracing using c++ and NVIDIA's OptiX. The GPU-based ray tracer achieved lightning-fast rendering, and the dragon was rendered in less than 2 seconds with a BVH acceleration structure. 

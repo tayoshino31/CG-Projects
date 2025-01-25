@@ -2,6 +2,8 @@
 
 **Taiki Yoshino, David Choi**   
 University of California San Diego, Computer Scinece and Engineering  
+CSE167 Computer Graphics (2024 Winter)  
+Used Tools: C++, OpenGL
 
 ## Ray Tracing
 We implemented ray tracing algorithm (Whitted 1980) from scratch in C++. Thoese rendering includes the transformation of spheres and triangles, a single point light source, a maximum of five reflections, and material properties.
