@@ -36,6 +36,14 @@ I developed a program that loads a character skin and attaches it to a skeleton.
 </div>
 
 ## Keyframe Animation
+I developed a program that loads a keyframe animation from .anim files and applies it to a skinned character in real time. The system supports multiple tangent interpolation (flat, linear, smooth, and fixed) as well as various extrapolation (constant, linear, cycle, cycle_offset, bounce). 
+
+<div style="display: flex; justify-content: space-around;">
+  <div style="width: 45%; text-align: center;">
+    <img src="..\images\animation\hw3\wasp.gif" style="width: 100%;">
+    <p>Wasp</p>
+  </div>
+</div>
 
 ## Cloth Simulation
 
