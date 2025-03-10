@@ -1,5 +1,11 @@
+<script>
+  setInterval(() => {
+    window.location.href = window.location.pathname + "?t=" + new Date().getTime();
+  }, 5000);
+</script>
+
 ## Course Projects
-<img src="images/raytracing/scene7.png" width="200" align="right" vspace = "25">
+<img src="images/raytracing/scene7.png" width="220" align="right" vspace = "25">
 
 #### Mar 19, 2024 [Ray Tracing](https://tayoshino31.github.io/CG-Projects/pages/raytracing)
 - Used Tools: C++, OpenGL
@@ -10,8 +16,9 @@
 
 &nbsp; 
 &nbsp;  
+&nbsp; 
 
-<img src="images/rendering/hw3/cornellNEE.png" width="200" align="right" vspace = "25">
+<img src="images/rendering/hw3/cornellNEE.png" width="220" align="right" vspace = "25">
 
 #### Jun 11, 2024 [Physically Based Rendering](https://tayoshino31.github.io/CG-Projects/pages/rendering)
 - Used Tools: C++, CUDA, OptiX 6.5, 
@@ -25,8 +32,9 @@
 
 &nbsp; 
 &nbsp;  
+&nbsp;  
 
-<img src="images/animation/hw3/wasp.gif" width="200" align="right" vspace = "25">  
+<img src="images/animation/hw3/wasp.gif" width="220" align="right" vspace = "25">  
 
 #### Feb 13, 2025 [Keyframe Animation]( https://tayoshino31.github.io/CG-Projects/pages/animation)
 
@@ -39,8 +47,9 @@
 
 &nbsp;  
 &nbsp; 
+&nbsp; 
 
-<img src="images/animation/hw4/cloth.gif" width="200" align="right" vspace = "25">  
+<img src="images/animation/hw4/cloth.gif" width="220" align="right" vspace = "25">  
 
 #### Feb 27, 2025 [Cloth Simulation]()
 
@@ -54,8 +63,9 @@
 
 &nbsp;  
 &nbsp;  
+&nbsp;
 
-<img src="images/animation/hw5/sph.gif" width="200" align="right" vspace = "25">  
+<img src="images/animation/hw5/sph.gif" width="220" align="right" vspace = "25">  
 
 #### Mar 9, 2025 [SPH Fluids]()
 
@@ -67,6 +77,7 @@
 - Wall Plane Repulsion Collision
 
 &nbsp; 
+&nbsp;  
 &nbsp;  
 
 <!-- <img src="images/" width="220" align="right" vspace = "25">  
