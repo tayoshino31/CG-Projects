@@ -61,7 +61,7 @@
 
 <img src="images/animation/hw5/sph.gif" width="220" align="right" vspace = "25">  
 
-#### Mar 9, 2025 [SPH Fluids]()
+#### Mar 13, 2025 [SPH Fluids]()
 
 - Used Tools: C++, OpenGL
 - Particle Based Fluid
@@ -89,6 +89,19 @@
 &nbsp;   -->
 
 ## Research Project
+<img src="images/refractiveindex/z-zone.png" width="220" align="right" vspace = "25">  
+
+#### Jun 1, 2022 [Refractive Index]()
+
+- Research on Refractive Index of Aqueous Solution
+- Eito Kubota, Taiki Yoshino, Nanami Shikai
+- Advisors: Kajio Takihiro
+- Super Science High School Program @ Uto High School
+- Discovered a novel, simple method for measuring <br> the refractive index & concentration of an aqueous solution.
+
+&nbsp;  
+&nbsp; 
+
 <img src="images/nerf/torchhash.gif" width="150" align="right" vspace = "25">  
 
 #### Jun 11, 2024 [NeRF-Slang]( https://drive.google.com/file/d/1u5g0FRjUYAK6FVz_k3svPNv_KpK_LRgS/view)
@@ -104,7 +117,7 @@
 
 <img src="images/hotspot/bunny.png" width="220" align="right" vspace = "25">  
 
-#### Feb 27, 2025 [HotSpot]( https://tayoshino31.github.io/CG-Projects/pages/animation)
+#### Feb 27, 2025 [HotSpot]( https://arxiv.org/abs/2411.14628)
 
 - HotSpot: Signed Distance Function Optimization <br> with an Asymptotically Sufficient Condition
 - Zimo Wang, Cheng Wang, Taiki Yoshino, Sirui Tao, Ziyang Fu, Tzu-Mao Li
