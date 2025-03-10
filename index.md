@@ -1,9 +1,3 @@
-<script>
-  setInterval(() => {
-    window.location.href = window.location.pathname + "?t=" + new Date().getTime();
-  }, 5000);
-</script>
-
 ## Course Projects
 <img src="images/raytracing/scene7.png" width="220" align="right" vspace = "25">
 
