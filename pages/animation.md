@@ -45,5 +45,4 @@ I developed a program that loads a keyframe animation from .anim files and appli
   </div>
 </div>
 
-## Cloth Simulation
 
