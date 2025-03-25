@@ -106,19 +106,33 @@ I'm third-year CSE major student at UC San Diego.
 &nbsp;  
 &nbsp; 
 &nbsp;   -->
-
 ## Research Project
-<img src="images/refractiveindex/z-zone.png" width="230" align="right" vspace = "25">  
+<img src="images/mirage/img.png" width="270" align="right" vspace = "25">  
 
-#### Jun 1, 2022 [Refractive Index]()
+#### June 5, 2019 [Mirage Simulation]()
 
-- Research on Refractive Index of Aqueous Solution
-- Eito Kubota, Taiki Yoshino, Nanami Shikai
+- Physics Research on Hot Road Mirage
+- Taiki Yoshino
 - Advisors: Kajio Takihiro
 - Super Science High School Program @ Uto High School
+- Reproduced a parabola-like light path on a small scale.
+
+&nbsp;  
+&nbsp; 
+&nbsp; 
+
+<img src="images/refractiveindex/z-zone.png" width="270" align="right" vspace = "25">  
+
+#### March 1, 2020 [Refractive Index]()
+
+- Physics Research on Refractive Index of Aqueous Solution
+- Eito Kubota, Taiki Yoshino, Nanami Shikai
+- Advisors: Kajio Takihiro
+- Physics Club @ Uto High School
 - Discovered a simple method for measuring <br> the refractive index & concentration of an aqueous solution.
 
 &nbsp;  
+&nbsp; 
 &nbsp; 
 
 <img src="images/nerf/torchhash.gif" width="160" align="right" vspace = "25">  
@@ -134,7 +148,7 @@ I'm third-year CSE major student at UC San Diego.
 &nbsp;  
 &nbsp; 
 
-<img src="images/hotspot/bunny.png" width="230" align="right" vspace = "25">  
+<img src="images/hotspot/bunny.png" width="270" align="right" vspace = "25">  
 
 #### Feb 27, 2025 [HotSpot](https://zeamoxwang.github.io/HotSpot-CVPR25/)
 
