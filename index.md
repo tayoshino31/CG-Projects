@@ -1,5 +1,9 @@
+## Taiki Yoshino
+I'm third-year CSE major student at UC San Diego.
+[Project Page](https://tayoshino31.github.io/CG-Projects/)
+
 ## Course Projects
-<img src="images/raytracing/scene7.png" width="220" align="right" vspace = "25">
+<img src="images/raytracing/scene7.png" width="230" align="right" vspace = "25">
 
 #### Mar 19, 2024 [Ray Tracing](https://tayoshino31.github.io/CG-Projects/pages/raytracing)
 - Used Tools: C++, OpenGL
@@ -12,7 +16,7 @@
 &nbsp;  
 &nbsp; 
 
-<img src="images/rendering/hw3/cornellNEE.png" width="220" align="right" vspace = "25">
+<img src="images/rendering/hw3/cornellNEE.png" width="230" align="right" vspace = "25">
 
 #### Jun 11, 2024 [Physically Based Rendering](https://tayoshino31.github.io/CG-Projects/pages/rendering)
 - Used Tools: C++, CUDA, OptiX 6.5, 
@@ -28,7 +32,7 @@
 &nbsp;  
 &nbsp;  
 
-<img src="images/animation/hw3/wasp.gif" width="220" align="right" vspace = "25">  
+<img src="images/animation/hw3/wasp.gif" width="230" align="right" vspace = "25">  
 
 #### Feb 13, 2025 [Keyframe Animation]( https://tayoshino31.github.io/CG-Projects/pages/animation)
 
@@ -43,7 +47,7 @@
 &nbsp; 
 &nbsp; 
 
-<img src="images/animation/hw4/cloth.gif" width="220" align="right" vspace = "25">  
+<img src="images/animation/hw4/cloth.gif" width="230" align="right" vspace = "25">  
 
 #### Feb 27, 2025 [Cloth Simulation]()
 
@@ -59,7 +63,7 @@
 &nbsp;  
 &nbsp;
 
-<img src="images/animation/hw5/sph.gif" width="220" align="right" vspace = "25">  
+<img src="images/animation/hw5/sph.gif" width="230" align="right" vspace = "25">  
 
 #### Mar 13, 2025 [SPH Fluids]()
 
@@ -74,12 +78,27 @@
 &nbsp;  
 &nbsp;  
 
+<img src="images/volume/hetvol_colored.png" width="230" align="right" vspace = "25">  
+
+#### Mar 24, 2025 [Volumetric Path Tracing]()
+
+- Used Tools: C++, lajolla renderer
+- Multiple Scattering
+- Homogenerous & Heterogeneous Media
+- Next Event Estimation
+- Multiple Importance Sampling
+- Chromatic Media
+
+&nbsp;  
+&nbsp; 
+&nbsp;  
+
+
 <!-- <img src="images/" width="220" align="right" vspace = "25">  
 
-#### Mar 1, 2025 [Particle Based Fluid Simulation]( https://tayoshino31.github.io/CG-Projects/pages/animation)
+#### Mar ??, 2025 [Disny Principled BSDF]( )
 
-- CSE169 Final Project  
-- Used Tools: C++, OpenGL, ImGUI, Visual Studio 2019
+- Used Tools: C++
 - ...
 - ...
 - ...
@@ -89,7 +108,7 @@
 &nbsp;   -->
 
 ## Research Project
-<img src="images/refractiveindex/z-zone.png" width="220" align="right" vspace = "25">  
+<img src="images/refractiveindex/z-zone.png" width="230" align="right" vspace = "25">  
 
 #### Jun 1, 2022 [Refractive Index]()
 
@@ -97,12 +116,12 @@
 - Eito Kubota, Taiki Yoshino, Nanami Shikai
 - Advisors: Kajio Takihiro
 - Super Science High School Program @ Uto High School
-- Discovered a novel, simple method for measuring <br> the refractive index & concentration of an aqueous solution.
+- Discovered a simple method for measuring <br> the refractive index & concentration of an aqueous solution.
 
 &nbsp;  
 &nbsp; 
 
-<img src="images/nerf/torchhash.gif" width="150" align="right" vspace = "25">  
+<img src="images/nerf/torchhash.gif" width="160" align="right" vspace = "25">  
 
 #### Jun 11, 2024 [NeRF-Slang]( https://drive.google.com/file/d/1u5g0FRjUYAK6FVz_k3svPNv_KpK_LRgS/view)
 
@@ -115,9 +134,9 @@
 &nbsp;  
 &nbsp; 
 
-<img src="images/hotspot/bunny.png" width="220" align="right" vspace = "25">  
+<img src="images/hotspot/bunny.png" width="230" align="right" vspace = "25">  
 
-#### Feb 27, 2025 [HotSpot]( https://arxiv.org/abs/2411.14628)
+#### Feb 27, 2025 [HotSpot](https://zeamoxwang.github.io/HotSpot-CVPR25/)
 
 - HotSpot: Signed Distance Function Optimization <br> with an Asymptotically Sufficient Condition
 - Zimo Wang, Cheng Wang, Taiki Yoshino, Sirui Tao, Ziyang Fu, Tzu-Mao Li
