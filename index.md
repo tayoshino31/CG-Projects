@@ -107,7 +107,7 @@ I'm third-year CSE major student at UC San Diego.
 &nbsp; 
 &nbsp;   -->
 ## Research Project
-<img src="images/mirage/img.png" width="270" align="right" vspace = "25">  
+<img src="images/mirage/image.png" width="230" align="right" vspace = "25">  
 
 #### June 5, 2019 [Mirage Simulation]()
 
@@ -121,7 +121,7 @@ I'm third-year CSE major student at UC San Diego.
 &nbsp; 
 &nbsp; 
 
-<img src="images/refractiveindex/z-zone.png" width="270" align="right" vspace = "25">  
+<img src="images/refractiveindex/z-zone.png" width="230" align="right" vspace = "25">  
 
 #### March 1, 2020 [Refractive Index]()
 
@@ -148,7 +148,7 @@ I'm third-year CSE major student at UC San Diego.
 &nbsp;  
 &nbsp; 
 
-<img src="images/hotspot/bunny.png" width="270" align="right" vspace = "25">  
+<img src="images/hotspot/bunny.png" width="230" align="right" vspace = "25">  
 
 #### Feb 27, 2025 [HotSpot](https://zeamoxwang.github.io/HotSpot-CVPR25/)
 
