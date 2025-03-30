@@ -65,7 +65,7 @@ I'm third-year CSE major student at UC San Diego.
 
 <img src="images/animation/hw5/sph.gif" width="230" align="right" vspace = "25">  
 
-#### Mar 13, 2025 [SPH Fluids]()
+#### Mar 13, 2025 [SPH Fluids](https://tayoshino31.github.io/CG-Projects/pages/sph)
 
 - Used Tools: C++, OpenGL
 - Particle Based Fluid
