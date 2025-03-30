@@ -49,7 +49,7 @@ I'm third-year CSE major student at UC San Diego.
 
 <img src="images/animation/hw4/cloth.gif" width="230" align="right" vspace = "25">  
 
-#### Feb 27, 2025 [Cloth Simulation]()
+#### Feb 27, 2025 [Cloth Simulation](https://tayoshino31.github.io/CG-Projects/pages/cloth)
 
 - Used Tools: C++, OpenGL 
 - Cloth made from Particles
@@ -80,11 +80,11 @@ I'm third-year CSE major student at UC San Diego.
 
 <img src="images/volume/hetvol_colored.png" width="230" align="right" vspace = "25">  
 
-#### Mar 24, 2025 [Volumetric Path Tracing]()
+#### Mar 24, 2025 [Volumetric Path Tracing]( https://tayoshino31.github.io/CG-Projects/pages/vol)
 
 - Used Tools: C++, lajolla renderer
 - Multiple Scattering
-- Homogenerous & Heterogeneous Media
+- Homogeneous & Heterogeneous Media
 - Next Event Estimation
 - Multiple Importance Sampling
 - Chromatic Media
@@ -123,7 +123,7 @@ I'm third-year CSE major student at UC San Diego.
 
 <img src="images/refractiveindex/z-zone.png" width="230" align="right" vspace = "25">  
 
-#### March 1, 2020 [Refractive Index]()
+#### March 1, 2020 [Refractive Index](https://drive.google.com/file/d/1GtNrVg-7XeD19hKKPpuD1Naawu1guImz/view)
 
 - Physics Research on Refractive Index of Aqueous Solution
 - Eito Kubota, Taiki Yoshino, Nanami Shikai
