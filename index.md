@@ -65,7 +65,7 @@ I'm third-year CSE major student at UC San Diego.
 
 <img src="images/animation/hw5/sph.gif" width="230" align="right" vspace = "25">  
 
-#### Mar 13, 2025 [SPH Fluids](https://tayoshino31.github.io/CG-Projects/pages/sph)
+#### Mar 11, 2025 [SPH Fluids](https://tayoshino31.github.io/CG-Projects/pages/sph)
 
 - Used Tools: C++, OpenGL
 - Particle Based Fluid
@@ -80,7 +80,7 @@ I'm third-year CSE major student at UC San Diego.
 
 <img src="images/volume/hetvol_colored.png" width="230" align="right" vspace = "25">  
 
-#### Mar 24, 2025 [Volumetric Path Tracing]( https://tayoshino31.github.io/CG-Projects/pages/vol)
+#### Mar 20, 2025 [Volumetric Path Tracing]( https://tayoshino31.github.io/CG-Projects/pages/vol)
 
 - Used Tools: C++, lajolla renderer
 - Multiple Scattering
@@ -94,18 +94,22 @@ I'm third-year CSE major student at UC San Diego.
 &nbsp;  
 
 
-<!-- <img src="images/" width="220" align="right" vspace = "25">  
+<img src="images/bsdf/disney_bsdf_array.png" width="220" align="right" vspace = "25">  
 
-#### Mar ??, 2025 [Disny Principled BSDF]( )
+#### Mar 31, 2025 [Disny Principled BSDF]( )
 
-- Used Tools: C++
-- ...
-- ...
-- ...
+- Used Tools: C++, lajolla renderer
+- Diffuse
+- Metal
+- Clearcoat
+- Glass
+- Sheen
 
 &nbsp;  
 &nbsp; 
-&nbsp;   -->
+&nbsp;  
+
+
 ## Research Project
 <img src="images/mirage/image.png" width="230" align="right" vspace = "25">  
 
