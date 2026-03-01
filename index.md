@@ -1,5 +1,5 @@
 ## Taiki Yoshino
-I'm third-year CSE major student at UC San Diego.
+I'm fourth-year CSE major student at UC San Diego.
 [Project Page](https://tayoshino31.github.io/CG-Projects/)
 
 ## Course Projects
@@ -78,25 +78,10 @@ I'm third-year CSE major student at UC San Diego.
 &nbsp;  
 &nbsp;  
 
-<img src="images/volume/hetvol_colored.png" width="230" align="right" vspace = "25">  
 
-#### Mar 20, 2025 [Volumetric Path Tracing]( https://tayoshino31.github.io/CG-Projects/pages/vol)
+<img src="images/bsdf/iphone.png" width="220" align="right" vspace = "25">  
 
-- Used Tools: C++, lajolla renderer
-- Multiple Scattering
-- Homogeneous & Heterogeneous Media
-- Next Event Estimation
-- Multiple Importance Sampling
-- Chromatic Media
-
-&nbsp;  
-&nbsp; 
-&nbsp;  
-
-
-<img src="images/bsdf/disney_bsdf_array.png" width="220" align="right" vspace = "25">  
-
-#### Mar 31, 2025 [Disny Principled BSDF]( )
+#### Jan 23, 2026 [Disny Principled BSDF]( )
 
 - Used Tools: C++, lajolla renderer
 - Diffuse
@@ -110,7 +95,22 @@ I'm third-year CSE major student at UC San Diego.
 &nbsp;  
 
 
-## Research Project
+<img src="images/volume/cloud.png" width="230" align="right" vspace = "25">  
+
+#### Feb 11, 2026 [Volumetric Path Tracing]( https://tayoshino31.github.io/CG-Projects/pages/vol)
+
+- Used Tools: C++, lajolla renderer
+- Multiple Scattering
+- Homogeneous & Heterogeneous Media
+- Next Event Estimation
+- Multiple Importance Sampling
+- Chromatic Media
+
+&nbsp;  
+&nbsp; 
+&nbsp;  
+
+## Research & Intern Project
 <img src="images/mirage/image.png" width="230" align="right" vspace = "25">  
 
 #### June 5, 2019 [Mirage Simulation]()
@@ -139,7 +139,7 @@ I'm third-year CSE major student at UC San Diego.
 &nbsp; 
 &nbsp; 
 
-<img src="images/nerf/torchhash.gif" width="160" align="right" vspace = "25">  
+<img src="images/nerf/ersp-poster.png" width="230" align="right" vspace = "25">  
 
 #### Jun 11, 2024 [NeRF-Slang]( https://drive.google.com/file/d/1u5g0FRjUYAK6FVz_k3svPNv_KpK_LRgS/view)
 
@@ -151,6 +151,8 @@ I'm third-year CSE major student at UC San Diego.
 
 &nbsp;  
 &nbsp; 
+&nbsp; 
+&nbsp; 
 
 <img src="images/hotspot/bunny.png" width="230" align="right" vspace = "25">  
 
@@ -160,6 +162,28 @@ I'm third-year CSE major student at UC San Diego.
 - Zimo Wang, Cheng Wang, Taiki Yoshino, Sirui Tao, Ziyang Fu, Tzu-Mao Li
 - CVPR 2025
 - Neural SDF optimization with heat method.
+
+&nbsp;  
+&nbsp; 
+
+<img src="images/pdi-internship/pdi-poster.png" width="230" align="right" vspace = "25">  
+
+#### Sep 30, 2025 [PDI-Intern](https://internshipsymposium.ucsd.edu/images/2025.PPG.YOSHINO.TAIKI.png)
+
+- Graphics Enginner Intern at Polyphony Digital
+- Implementd five 3DCG tasks with my two mentors.  <br>(Bidirectional Path Tracing, Screen-Space Filter, Texture Baking for  <br> Translucency, Multi-Scattering BSDF,Rendering Mirage)
+
+&nbsp;  
+&nbsp; 
+&nbsp;  
+&nbsp; 
+
+<img src="images/qi-intern/qi-intern.png" width="230" align="right" vspace = "25">  
+
+#### Dec 10, 2025 [QI-Intern](images/qi-intern/qi-intern.png)
+
+- Game Development Intern at Qualcomm Institute
+- Developed three VR mini-games using UE5.
 
 &nbsp;  
 &nbsp; 
