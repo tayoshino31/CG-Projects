@@ -166,7 +166,7 @@ I'm fourth-year CSE major student at UC San Diego.
 &nbsp;  
 &nbsp; 
 
-<img src="images/pdi-internship/pdi-poster.png" width="230" align="right" vspace = "25">  
+<!-- <img src="images/pdi-internship/pdi-poster.png" width="230" align="right" vspace = "25">  
 
 #### Sep 30, 2025 [PDI-Intern](https://internshipsymposium.ucsd.edu/images/2025.PPG.YOSHINO.TAIKI.png)
 
@@ -186,7 +186,7 @@ I'm fourth-year CSE major student at UC San Diego.
 - Developed three VR mini-games using UE5.
 
 &nbsp;  
-&nbsp; 
+&nbsp;  -->
 
 
 ## Links
