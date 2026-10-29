@@ -167,18 +167,6 @@ I graduated from UC San Diego in June 2026 with a B.S. in Computer Science. I am
 
 &nbsp; 
 &nbsp;  
-<<<<<<< HEAD
-&nbsp; 
-
-<!-- <img src="images/pdi-internship/pdi-poster.png" width="230" align="right" vspace = "25">  
-
-#### Sep 30, 2025 [PDI-Intern](https://internshipsymposium.ucsd.edu/images/2025.PPG.YOSHINO.TAIKI.png)
-
-- Graphics Enginner Intern at Polyphony Digital
-- Implementd five 3DCG tasks with my two mentors.  <br>(Bidirectional Path Tracing, Screen-Space Filter, Texture Baking for  <br> Translucency, Multi-Scattering BSDF,Rendering Mirage)
-
-=======
->>>>>>> 5667f0b (2dgs, noise)
 &nbsp;  
 
 <img src="images/raytracing/scene7.png" width="230" align="right" vspace = "25">
@@ -205,20 +193,5 @@ I graduated from UC San Diego in June 2026 with a B.S. in Computer Science. I am
 - Developed a simple method for measuring the refractive index of aqueous solutions.
 
 &nbsp;  
-<<<<<<< HEAD
-&nbsp;  -->
-
-
-## Links
-<!-- 1. [Ray Tracing](https://tayoshino31.github.io/CG-Projects/pages/raytracing)
-2. [Physically Based Rendering](https://tayoshino31.github.io/CG-Projects/pages/rendering)
-3. [Computer Animation]( https://tayoshino31.github.io/CG-Projects/pages/animation)
-4. [Particle Based Fluid Simulation]( https://tayoshino31.github.io/CG-Projects/pages/animation)
-5. [Volumetric Path Tracing]( https://tayoshino31.github.io/CG-Projects/pages/animation)
-6. [Disney Principled BSDF]( https://tayoshino31.github.io/CG-Projects/pages/animation)
-7. [HotSpot](https://arxiv.org/abs/2411.14628)
-8. [NeRF-Slang](https://drive.google.com/file/d/1u5g0FRjUYAK6FVz_k3svPNv_KpK_LRgS/view) -->
-=======
 &nbsp; 
 &nbsp; 
->>>>>>> 5667f0b (2dgs, noise)
