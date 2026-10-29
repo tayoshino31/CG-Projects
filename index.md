@@ -80,7 +80,7 @@ I graduated from UC San Diego in June 2026 with a B.S. in Computer Science. I am
 
 <img src="images/pdi-internship/pdi-poster.png" width="230" align="right" vspace = "25">  
 
-#### Sep 30, 2025 [PDI-Intern](https://internshipsymposium.ucsd.edu/images/2025.PPG.YOSHINO.TAIKI.png)
+#### Sep 30, 2025 [PDI-Intern](https://drive.google.com/file/d/1A2vwEP8RwmRsYQAVuy-9BnpCTCGTkZSJ/view?usp=sharing)
 
 - Graphics Enginner Intern at Polyphony Digital
 - Worked on five CG tasks with my two mentors.  <br>(Bidirectional Path Tracing, Screen-Space Filter, Texture Baking for  <br> Translucency, Multi-Scattering BSDF,Rendering Mirage)
