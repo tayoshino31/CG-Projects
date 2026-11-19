@@ -1,5 +1,5 @@
 ## Taiki Yoshino
-I graduated from UC San Diego in June 2026 with a B.S. in Computer Science. I am currently a volunteer researcher working with Prof. Tzu-Mao Li. I am seeking MS/Ph.D. opportunities starting in Fall 2027.
+I graduated from UC San Diego with a B.S. in Computer Science in June 2026. I am currently working on an independent research project with Prof. Tzu-Mao Li. I am seeking M.S./Ph.D. opportunities starting in Fall 2027.
 <!-- [Project Page](https://tayoshino31.github.io/CG-Projects/) -->
 
 
