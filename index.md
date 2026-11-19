@@ -63,7 +63,7 @@ I graduated from UC San Diego with a B.S. in Computer Science in June 2026. I am
 
 <img src="images/bsdf/iphone.png" width="220" align="right" vspace = "25">  
 
-#### Jan 23, 2026 [Disny Principled BSDF]( )
+#### Jan 23, 2026 [Disny Principled BSDF](https://tayoshino31.github.io/CG-Projects/pages/bsdf)
 
 - Tools Used: C++, lajolla renderer
 - Diffuse
